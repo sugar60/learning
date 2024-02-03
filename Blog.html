@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawkings University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header and navigation bar  -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo22.png" alt=""></a>
+            <div class="navbar" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>Certificate & Online Program 2024</h1>
+    </section>
+
+    <!-- blog section-->
+    <section class="blogs">
+        <div class="row">
+              <div class="left">
+                <img src="images/certificate.jpg" alt="error">
+                <h2>Certificate & Online Program 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellendus facilis? Deserunt consequatur unde magnam eveniet maiores. Eveniet laboriosam.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique corporis animi consectetur quibusdam alias, quidem ex rem dignissimos nulla beatae incidunt earum, possimus porro, voluptate suscipit ipsa ipsam tempora. Explicabo dolore rerum ducimus illo incidunt, eum necessitatibus nihil id voluptatum?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quod quam odit non voluptate at voluptatem velit consequuntur ratione ipsa itaque, maiores repudiandae rerum fugit commodi libero alias quo. Repudiandae voluptas doloremque eos ipsam. Eligendi, veritatis consectetur accusantium cupiditate velit, illo voluptates expedita ipsam illum quam sit nihil voluptatum unde?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam eius sunt reprehenderit expedita, corporis, animi ipsum, nam quam fugiat iusto assumenda! Ullam rem, facere nulla sequi asperiores cum nam, quas laudantium, fugiat in reprehenderit mollitia eaque. Quae, vel exercitationem?</p>
+
+                     <div class="comment">
+                        <h3>Leave a Comment</h3>
+                        <form class="commentcls" name="theform">
+                         <input type="text" placeholder="Enter Name">
+                         <input type="email" placeholder="Enter Email">
+                         <textarea  rows="5" placeholder="Write your Message"></textarea>
+                         <button class="visitbtn vistbtn">POST COMMENT</button>
+                        </form>
+
+                     </div>
+
+              </div>
+              <div class="right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span> Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span> Data Analytics</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span> Head of Department</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span> Computer Science</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Hostel Head</span>
+                    <span>17</span>
+                </div>
+                <div>
+                    <span>Scientist</span>
+                    <span>17</span>
+                </div>
+              </div>
+        </div>
+    </section>
+    
+
+    <!-- footer  -->
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quam quos. <br>dolorum neque Voluptate
+            dicta id.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Copyright &copy; 2024 www.educ.com</p>
+
+    </section>
+
+
+
+
+
+
+    <!-- javascript to toogle menu  -->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
